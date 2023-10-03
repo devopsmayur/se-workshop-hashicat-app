@@ -5,9 +5,6 @@
 # Terraform code. If you create a variable with no default, the user will be
 # prompted to enter it (or define it via config file or command line flags.)
 
-variable "project" {
-  description = "ID of your GCP project. Make sure you set this up before running this terraform code.  REQUIRED."
-}
 
 variable "prefix" {
   description = "This prefix will be included in the name of some resources. You can use your own name or any other short string here."
