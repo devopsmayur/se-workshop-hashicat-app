@@ -1,8 +1,8 @@
 terraform {
   cloud {
-    organization = "YOUR_ORGANIZATION"
+    organization = "devopsmayur"
     workspaces {
-      name = "YOUR_WORKSPACE"
+      name = "se-workshop-hashicat-app"
     }
   }
 }
