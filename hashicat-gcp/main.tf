@@ -13,6 +13,7 @@ provider "google" {
 }
 
 resource "google_compute_network" "hashicat" {
+  name = "mg"
   auto_create_subnetworks = false
 }
 
